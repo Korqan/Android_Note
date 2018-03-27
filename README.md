@@ -24,28 +24,24 @@ My_App
 ''''      }
 ''''    }''''
 - 二、
-{ % raw %}
-{% codeblock%}
-'''
+{% codeblock java %}
 Public class MainActivity extends AppCompatActivity{
-      @Override
-      protected void onCreate(Bundle savedInstanceState){
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(this);
-      }
-      @Override
-      public void onClick(View v){
-        switch(v.getId()){
-        case R.id.button:
-          //
-          break;
-        default:
-          break;
-        }
-      }
-    }
+@Override
+protected void onCreate(Bundle savedInstanceState){
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+Button button = (Button) findViewById(R.id.button);
+button.setOnClickListener(this);
+}
+@Override
+public void onClick(View v){
+switch(v.getId()){
+case R.id.button:
+//
+break;
+default:
+break;
+}
+}
+}
 {% endcodeblock %}
-'''
-{% endraw % }
