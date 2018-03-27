@@ -1,0 +1,22 @@
+两个按钮 一个占宽度的3/5 另一个占2/5
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizantal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <EditText
+    android:id="@+id/input_message"
+    android:layout_width="0dp"
+    andriod:layout_height="match_parent"
+    android:layout_weight="3"
+    android:hint="Type Something"
+    />
+  
+  <Button
+    android:id="@+id/send"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:Text="send"
+    />
+</LinearLayout>
