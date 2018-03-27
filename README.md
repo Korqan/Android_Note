@@ -24,6 +24,7 @@ My_App
 ''''      }
 ''''    }''''
 - 二、
+{ % raw %}
 '''
 Public class MainActivity extends AppCompatActivity{
       @Override
@@ -45,3 +46,4 @@ Public class MainActivity extends AppCompatActivity{
       }
     }
 '''
+{% endraw % }
