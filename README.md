@@ -24,7 +24,8 @@ My_App
 ''''      }
 ''''    }''''
 - 二、
-''''Public class MainActivity extends AppCompatActivity{
+'''
+Public class MainActivity extends AppCompatActivity{
       @Override
       protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -42,4 +43,5 @@ My_App
           break;
         }
       }
-    }''''
+    }
+'''
