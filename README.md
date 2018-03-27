@@ -25,7 +25,7 @@ My_App
 ''''    }''''
 - 二、
 { % raw %}
-'''
+{% codeblock%}
 Public class MainActivity extends AppCompatActivity{
       @Override
       protected void onCreate(Bundle savedInstanceState){
@@ -44,6 +44,6 @@ Public class MainActivity extends AppCompatActivity{
           break;
         }
       }
-    }
-'''
+    }
+{% endcodeblock %}
 {% endraw % }
