@@ -1,4 +1,4 @@
-两个按钮 一个占宽度的3/5 另一个占2/5
+##两个按钮 一个占宽度的3/5 另一个占2/5
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="horizantal"
   android:layout_width="match_parent"
@@ -20,3 +20,4 @@
     android:Text="send"
     />
 </LinearLayout>
+##相对布局
